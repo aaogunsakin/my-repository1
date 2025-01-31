@@ -19,7 +19,7 @@ def head():
 # and assign to the route of ('/list')
 @app.route("/list")
 def list_names():
-    my_names = ["Hope", "Brittney", "Jade"]
+    my_names = ["Ayodele", "Aleyah", "Elijah"]
     return render_template("body.html", object=my_names)
 
 
